@@ -1,0 +1,2 @@
+(this["webpackJsonpecommerce-front"]=this["webpackJsonpecommerce-front"]||[]).push([[0],{9:function(e,t,c){"use strict";c.r(t);var n=c(1),r=c(0),o=c.n(r),s=c(3),i=c.n(s);var p,a=function(){return Object(n.jsx)("div",{children:"App works"})};p="http://fullstack.net.cn/api",console.log(p),i.a.render(Object(n.jsx)(o.a.StrictMode,{children:Object(n.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.3dab6bd7.chunk.js.map
