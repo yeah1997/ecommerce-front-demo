@@ -7,8 +7,8 @@ const Home = () => {
     const state = useSelector(state => state)
     console.log(state)
     return (
-        <Layout>
-            Home{JSON.stringify(state)}
+        <Layout title="Lee mall" subTitle="Enjoy it">
+            Home
         </Layout>
     )
 }

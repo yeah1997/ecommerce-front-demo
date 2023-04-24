@@ -4,7 +4,7 @@ import Layout from './Layout'
 
 const Shop = () =>{
   return (
-    <Layout>
+    <Layout title="Lee mall" subTitle="Enjoy it">
       Shop
     </Layout>
   )
