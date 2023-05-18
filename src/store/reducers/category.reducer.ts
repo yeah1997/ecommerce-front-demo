@@ -1,25 +1,25 @@
 import {
   CategoryUnionType,
   GET_CATEGORY,
-  GET_CATEGORY_SUCCESS,
-} from "../actions/category.actions";
-import { Category } from "../models/category";
+  GET_CATEGORY_SUCCESS
+} from "../actions/category.actions"
+import { Category } from "../models/category"
 
 export interface CategoryState {
   category: {
-    loaded: boolean;
-    success: boolean;
-    result: Category[];
-  };
+    loaded: boolean
+    success: boolean
+    result: Category[]
+  }
 }
 
 const initialState: CategoryState = {
   category: {
     loaded: false,
     success: false,
-    result: [],
-  },
-};
+    result: []
+  }
+}
 
 export default function categoryReducer(
   state = initialState,
@@ -32,19 +32,19 @@ export default function categoryReducer(
         category: {
           loaded: false,
           success: false,
-          result: [],
-        },
-      };
+          result: []
+        }
+      }
     case GET_CATEGORY_SUCCESS:
       return {
         ...state,
         category: {
           loaded: true,
           success: true,
-          result: action.payload,
-        },
-      };
+          result: action.payload
+        }
+      }
     default:
-      return state;
+      return state
   }
 }
